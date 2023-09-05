@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to right, #3ca3e750,#e68a008c,#3ca3e79c);
+}
+header{
+  background:linear-gradient(to right, #3ca3e7fb,#85540a,#3ca3e7);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    border-radius: 100px;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease;
+    text-align: center;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .event-card {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow:black;
+    padding: 1rem;
+    border-radius: 90%;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to right, #16222b2c,#3f301c3d,#1a3b524d);
+  }
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .event-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ... (existing styles) */
+  /* ... (existing styles) */
+
+/* New event form styling */
+h2 {
+    text-align: center;
+  }
+  
+  #event-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e68a00;
+  }
+  .potfolio{
+    color:royalblue;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    font-size: 45px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .pic{
+    /*border: 1px solid #ccc;
+    background-color:rgba(128, 128, 128, 0.103);
+    padding: 1rem;
+    border-radius: 100%;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease;
+    color:royalblue;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 50;
+    z-index: 1000;*/
+    width:500px;
+	height:400px;
+	padding:30px;
+	margin: auto;
+	margin-top: 1px;
+  overflow: hidden;
+	position:relative;
+	height:430px;
+	border-radius: 15px;
+	top:auto;
+  position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;
+
+  }
+  footer {
+    background:linear-gradient(to right, #3ca3e7fb,#85540a,#3ca3e7);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .up {
+    color:white;
+    background-color: royalblue;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 2px solid #ff9900;
+    border-radius: 20px;
+    transition: font-size 0.3s ease, border 0.3s ease, border-radius 0.3s ease, background-color 0.3s ease;
+    margin-right: 1px;
+
+  }
+  
+  .up:hover {
+    background-color: #ff9900;
+    color: black;
+    font-size: 20px;
+    border: 2px solid #e68a00;
+    border-radius: 30px;
+  }
+  .page{
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow:black;
+    padding: 1rem;
+    border-radius: 50%;
+
+    transition: transform 0.3s ease;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 60%;
+    z-index: 1000;
+    display: inline-block;
+  }
+span{
+  color: #025522;
+  font-weight: bold;
+}
